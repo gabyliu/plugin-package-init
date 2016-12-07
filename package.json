@@ -1,0 +1,35 @@
+{
+  "name": "plugin-package-init",
+  "version": "1.1.0",
+  "description": "a plugin for initialize package",
+  "main": "package-init.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabyliu/plugin-package-init.git"
+  },
+  "author": "gabyliu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gabyliu/plugin-package-init/issues"
+  },
+  "homepage": "https://github.com/gabyliu/plugin-package-init#readme",
+  "devDependencies": {
+    "colors": "^1.1.2",
+    "node-fs-extra": "^0.8.1",
+    "path": "^0.12.7",
+    "readline": "^1.3.0"
+  },
+  "dependencies": {
+    "colors": "^1.1.2",
+    "node-fs-extra": "^0.8.1",
+    "readline": "^1.3.0",
+    "path": "^0.12.7"
+  },
+  "keywords": [
+    "init",
+    "package"
+  ]
+}
