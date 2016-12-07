@@ -55,12 +55,12 @@ npm intall plugin-package
 3.修改package-init.config.js文件中的
 ```
 let pluginConfig = {
-	page: {//samplePackage里你要复制的文件夹名字，这里指的是要复制samplePackage/page/这个文件夹
-	    distDir: './src/pages/'//目标目录，复制的文件夹将会到这个目录
-	},
-	widget: {//samplePackage里你要复制的文件夹名字，这里指的是要复制samplePackage/widget/这个文件夹
-	    distDir: './src/widgets/'//目标目录，复制的文件夹将会到这个目录
-  	}
+    page: {//samplePackage里你要复制的文件夹名字，这里指的是要复制samplePackage/page/这个文件夹
+        distDir: './src/pages/'//目标目录，复制的文件夹将会到这个目录
+    },
+    widget: {//samplePackage里你要复制的文件夹名字，这里指的是要复制samplePackage/widget/这个文件夹
+        distDir: './src/widgets/'//目标目录，复制的文件夹将会到这个目录
+    }
 };
 ```
 
@@ -72,8 +72,11 @@ node package-init.config.js
 5.在命令行工具中回答下面问题
 ![命令行问答][5]
 ①复制samplePackage中的那个page文件夹。
+
 ②复制后的文件重命名为testPackage，缺省值为①的回答
+
 ③index.ejs中的html title重命名为testPackage title，缺省值为samplePackage中的index.ejs的html title
+
 ④询问samplePackage/page/index.ejs中引用的js文件，不需要jquery.js、不需要react.js、需要index.js
 
 ## 需要注意的
@@ -87,8 +90,8 @@ node package-init.config.js
 那么package-init.config.js中的pluginConfig属性值只能为这两个目录
 ```
 let pluginConfig = {
-	page: {},
-	widget: {}
+    page: {},
+    widget: {}
 };
 ```
 
