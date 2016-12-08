@@ -48,15 +48,15 @@ node package-init.config.js
 ```
 npm intall plugin-package
 ```
-
-2.在plugin-package/samplePackage/目录中新建你的文件夹例子
+2.将node_modules/plugin-package-init/目录里的，plugin-package/目录和package-init.config.js文件复制到项目根目录中。参考***作用***里开发目录里的plugin-package和package-init.config.js文件的位置
+3.在plugin-package/samplePackage/目录中新建你的文件夹例子
 
 ![此处输入图片的描述][3]
 
 这里的samplePackage/index.ejs内容是这样，红框框住的是可被重写
 ![此处输入图片的描述][4]
 
-3.修改package-init.config.js文件中的
+4.修改package-init.config.js文件中的
 ```
 let pluginConfig = {
     page: {//samplePackage里你要复制的文件夹名字，这里指的是要复制samplePackage/page/这个文件夹
@@ -68,12 +68,12 @@ let pluginConfig = {
 };
 ```
 
-4.运行
+5.运行
 ```
 node package-init.config.js
 ```
 
-5.在命令行工具中回答下面问题
+6.在命令行工具中回答下面问题
 ![命令行问答][5]
 
 ①复制samplePackage中的那个page文件夹。
