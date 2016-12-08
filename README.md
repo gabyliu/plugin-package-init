@@ -37,6 +37,7 @@ node package-init.config.js
 ```
 之后，回答下面的问答题
 ![命令行问答][1]
+
 就会将samplePackage/page/文件夹复制到src/pages/目录中，并重命名为‘testPackage’。
 同时src/pages/testPackage/index.ejs的html title重命名为‘testPackage title’，并且index.ejs中只引用了index.js这份js
 ![此处输入图片的描述][2]
@@ -48,7 +49,9 @@ npm intall plugin-package
 ```
 
 2.在plugin-package/samplePackage/目录中新建你的文件夹例子
+
 ![此处输入图片的描述][3]
+
 这里的samplePackage/index.ejs内容是这样，红框框住的是可被重写
 ![此处输入图片的描述][4]
 
