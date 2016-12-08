@@ -49,7 +49,7 @@ npm intall plugin-package
 
 2.在plugin-package/samplePackage/目录中新建你的文件夹例子
 ![此处输入图片的描述][3]
-这里的samplePackage/index.ejs内容是这样
+这里的samplePackage/index.ejs内容是这样，红框框住的是可被重写
 ![此处输入图片的描述][4]
 
 3.修改package-init.config.js文件中的
@@ -71,6 +71,7 @@ node package-init.config.js
 
 5.在命令行工具中回答下面问题
 ![命令行问答][5]
+
 ①复制samplePackage中的那个page文件夹。
 
 ②复制后的文件重命名为testPackage，缺省值为①的回答
@@ -98,5 +99,5 @@ let pluginConfig = {
   [1]: http://mmbiz.qpic.cn/mmemoticon/duc2TvpEgSRzpYhmEs7XvR0eQTF9oF7ibTE7B8mNBpD1IfLmJpW9bQOCR1PjAJCkrfPzsLX7cxVMV3udib6ETfeQ/0
   [2]: http://mmbiz.qpic.cn/mmemoticon/Q3auHgzwzM6Mc3PlejPjtxribRFBhAWhmNLQwWLCPSVeQVAPXia5mibVFYQI7w62JSL/0
   [3]: http://mmbiz.qpic.cn/mmemoticon/Q3auHgzwzM4WjOpz7KyZ1ehFUj0ictPMc1vzAoXoJ9eicbK5JaNxkkyybocXFlaYLn/0
-  [4]: http://mmbiz.qpic.cn/mmemoticon/Q3auHgzwzM7pgVPNVnvzbtZYR4yiayiaC0DkGRsFNs8Yx5ricuVEbSDHZF5vibfCQJEt/0
+  [4]: http://mmbiz.qpic.cn/mmemoticon/Q3auHgzwzM7L7AZphhrl9dh04tf5frNdbqX1vyKbUfhiakhNu04U7HBYmOnbdzSql/0
   [5]: http://mmbiz.qpic.cn/mmemoticon/Q3auHgzwzM6iaN6hZzfHyG5jTfRCEff5alfBUKIGY113GxtYZph68Uj3LJkt3tM7H/0
