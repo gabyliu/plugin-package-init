@@ -36,6 +36,7 @@ package-init.config.js
 node package-init.config.js
 ```
 之后，回答下面的问答题
+
 ![命令行问答][1]
 
 就会将samplePackage/page/文件夹复制到src/pages/目录中，并重命名为‘testPackage’。
