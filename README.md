@@ -49,6 +49,7 @@ node package-init.config.js
 npm intall plugin-package
 ```
 2.将node_modules/plugin-package-init/目录里的，plugin-package/目录和package-init.config.js文件复制到项目根目录中。参考***作用***里开发目录里的plugin-package和package-init.config.js文件的位置
+
 3.在plugin-package/samplePackage/目录中新建你的文件夹例子
 
 ![此处输入图片的描述][3]
